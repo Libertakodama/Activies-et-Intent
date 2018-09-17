@@ -63,6 +63,8 @@
         android:ems="10"
         android:hint="01/01/2018"
         android:inputType="textPersonName"
+        android:clickable="true"
+        android:focusable="false"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edit_destination" />
 
