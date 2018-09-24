@@ -44,7 +44,7 @@ public class ItinerarySearchActivity extends AppCompatActivity {
         });
         final Calendar myCalendar = Calendar.getInstance();
 
-        final EditText editdate = (EditText) findViewById(R.id.edit_date);
+        final EditText editdate = findViewById(R.id.edit_date);
         final DatePickerDialog.OnDateSetListener date = new DatePickerDialog.OnDateSetListener() {
 
             private void updateLabel() {
