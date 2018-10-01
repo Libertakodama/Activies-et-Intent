@@ -14,7 +14,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:ems="10"
-        android:hint="Departure"
+        android:hint="@string/departure"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -27,7 +27,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:ems="10"
-        android:hint="Name"
+        android:hint="@string/name"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edit_departure" />
@@ -38,7 +38,7 @@
         android:layout_height="0dp"
         android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
-        android:text="Departure"
+        android:text="@string/departure"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -48,7 +48,7 @@
         android:layout_height="0dp"
         android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
-        android:text="Destination"
+        android:text="@string/destination"
         app:layout_constraintBottom_toTopOf="@+id/edit_destination"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edit_departure" />
@@ -74,7 +74,7 @@
         android:layout_height="0dp"
         android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
-        android:text="Date"
+        android:text="@string/date"
         app:layout_constraintBottom_toTopOf="@+id/edit_date"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edit_destination" />
@@ -88,7 +88,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:text="SEARCH"
+        android:text="@string/search_big"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edit_date" />
